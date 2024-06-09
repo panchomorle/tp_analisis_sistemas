@@ -8,12 +8,15 @@ Tema: Análisis de sistemas (Unidad 5)
 - Sebestyen, Kiara
 
 **Diagrama de casos de uso:**
+
 ![Casos de uso](diagrama_casos_de_uso.png "Casos de uso")
 
-**Clases de análisis**
+**Clases de análisis**:
+
 ![Analisis](Clases_de_analisis.png "analisis")
 
-**Paquetes de análisis**
+**Paquetes de análisis**:
+
 ![Analisis](paquetes_analisis.png "analisis")
 
 ### REALIZACIONES DE CASOS DE USO:
@@ -40,7 +43,6 @@ Tema: Análisis de sistemas (Unidad 5)
 - Reserva (Entidad): Contiene la información persistente de las reservas del sistema.
 - Vehículo (Entidad): Contiene la información persistente de los vehículos del sistema.
 - Cliente (Entidad): Contiene la información persistente de los clientes del sistema.
-- Costo (Entidad): Contiene la información persistente de los costos del sistema.
 
 ---
 
@@ -51,8 +53,6 @@ Tema: Análisis de sistemas (Unidad 5)
 - Reserva (Entidad): Contiene la información persistente de las reservas del sistema.
 - Vehículo (Entidad): Contiene la información persistente de los vehículos del sistema.
 - Cliente (Entidad): Contiene la información persistente de los clientes del sistema.
-- Costo (Entidad): Contiene la información persistente de los costos del sistema.
-- Interfaz imprimir factura (Interfaz): Pantalla o ventana que permite una salida de datos para la impresión de las facturas.
 
 ---
 
@@ -61,7 +61,6 @@ Tema: Análisis de sistemas (Unidad 5)
 - Reserva (Entidad): Contiene la información persistente de las reservas del sistema.
 - Vehículo (Entidad): Contiene la información persistente de los vehículos del sistema.
 - Cliente (Entidad): Contiene la información persistente de los clientes del sistema.
-- Costo (Entidad): Contiene la información persistente de los costos del sistema.
 
 ---
 
@@ -77,4 +76,3 @@ Tema: Análisis de sistemas (Unidad 5)
 
 - Interfaz calcular costo (Interfaz): Pantalla o ventana que permite calcular el costo total del alquiler basado en los días, tipo de vehículo y servicios adicionales.
 - Controlador de costo (Control): Encargado de la lógica de cálculo de costos del alquiler.
-- Costo (Entidad): Contiene la información persistente de los costos del sistema.
