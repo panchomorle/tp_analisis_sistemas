@@ -15,64 +15,136 @@ Tema: Análisis de sistemas (Unidad 5)
 
 ![Analisis](Clases_de_analisis.png "analisis")
 
+### Atributos y métodos:
+**Gestion reservas:**
+    ListarReservas()
+    MostrarFormulario()
+**Control reservas:**
+    ListaReservas
+    AgregarReserva()
+    BorrarReserva()
+    ModificarReserva()
+    ListarReserva()
+**Reservas:**
+    fechaInicio
+    fechaFin
+    cliente
+    vehículo
+    serviciosExtra
+    estadoReserva
+    fechaReserva
+
+ **Gestion cliente:**
+    ListarClientes()
+    FormularioClientes()
+**Control cliente:**
+    ListaClientes
+    AgregarCliente()
+    BorrarCliente()
+    ModificarCliente()
+    ListarCliente()
+**Cliente:**
+    nombre
+    direccion
+    teléfono
+    email
+
+**Gestión vehículo:**
+    listarVehiculos()
+    FormularioVehiculos()
+**Control vehículo:**
+    ListaVehiculos
+    AgregarVehiculo()
+    BorrarVehiculo()
+    ModificarVehiculo()
+    ListarVehiculo()  
+**Vehículo:**
+    marca
+    modelo
+    año
+    matrícula
+    
+**Gestión de servicio:**
+	AgregarServicio()
+	BorrarServicio()
+	ModificarServicio()
+	ConsultarServicio()
+**Control servicios:**
+	 ListarServiciosExtra()
+	 AgregarServiciosExtra()
+	 BorrarServicioExtra()
+	 ModificarServicioExtra()
+**Servicios extra:**
+    nombre
+    descripción
+    
+**Facturas:**
+    cliente
+    fecha 
+    precio
+    servicios
+**Generar factura:**
+    ListaFacturas
+
+**Registrar devolución:**
+	ListaDeReservas
+    CalcularCosto()
+    ModificarVehiculo()
+**Mostrar Informe:**
+	MostrarInforme()
+**Generar Informe:**
+	ConsultarFacturas()
+	ConsultarReservas()
+	ConsultarVehiculos()
+
 **Paquetes de análisis**:
 
 ![Analisis](paquetes_analisis.png "analisis")
 
 ### REALIZACIONES DE CASOS DE USO:
-1. Gestionar Vehículo (alta, baja, modificación, consulta)
+### Gestionar reservas
+- Gestión reservas (interfaz)
+- Control reservas (control)
+- Reservas (entidad)
 
-- Interfaz registrar vehículos (Interfaz): Pantalla o ventana que permite ingresar los datos para la creación de los vehículos.
-- Controlador de vehículos (Control): Encargado de la creación, localización, modificación, eliminación y consultas de los vehículos.
-- Vehículo (Entidad): Contiene la información persistente de los vehículos del sistema.
+---
+### Gestionar clientes
+- Gestión cliente (interfaz)
+- Control cliente (control)
+- Cliente (entidad)
+
 
 ---
 
-2. Gestionar Cliente (alta, baja, modificación, consulta)
-
-- Interfaz registrar cliente (Interfaz): Pantalla o ventana que permite ingresar los datos para la creación de los clientes.
-- Controlador de clientes (Control): Encargado de la creación, localización, modificación, eliminación y consultas de los clientes.
-- Cliente (Entidad): Contiene la información persistente de los clientes del sistema.
-
----
-
-3. Gestionar Reserva (alta, baja, modificación, consulta)
-
-- Interfaz registrar reserva (Interfaz): Pantalla o ventana que permite ingresar los datos para la creación de las reservas.
-- Controlador de reservas (Control): Encargado de la creación, localización, modificación, eliminación y consultas de las reservas.
-- Reserva (Entidad): Contiene la información persistente de las reservas del sistema.
-- Vehículo (Entidad): Contiene la información persistente de los vehículos del sistema.
-- Cliente (Entidad): Contiene la información persistente de los clientes del sistema.
+### Gestionar vehículos
+- Gestión vehículo (interfaz)
+- Control vehículo (control)
+- Vehículo (entidad)
 
 ---
 
-4. Gestionar Devolución (alta, baja, modificación, consulta)
-
-- Interfaz registrar devolución (Interfaz): Pantalla o ventana que permite ingresar los datos para la creación de las devoluciones.
-- Controlador de devoluciones (Control): Encargado de la creación, localización, modificación, eliminación y consultas de las devoluciones.
-- Reserva (Entidad): Contiene la información persistente de las reservas del sistema.
-- Vehículo (Entidad): Contiene la información persistente de los vehículos del sistema.
-- Cliente (Entidad): Contiene la información persistente de los clientes del sistema.
-
----
-
-5. Gestionar Informes
-
-- Reserva (Entidad): Contiene la información persistente de las reservas del sistema.
-- Vehículo (Entidad): Contiene la información persistente de los vehículos del sistema.
-- Cliente (Entidad): Contiene la información persistente de los clientes del sistema.
+### Generar informe
+- Mostrar informe (interfaz)
+- Generar informe (control)
+- Vehículo (entidad)
+- Reservas (entidad)
+- Facturas (entidad)
 
 ---
 
-6. Gestionar Servicios Extra
-
-- Interfaz gestionar servicios extra (Interfaz): Pantalla o ventana que permite gestionar servicios adicionales como seguro, silla de bebé, etc.
-- Controlador de servicios extra (Control): Encargado de la creación, localización, modificación, eliminación y consultas de los servicios extra.
-- Servicios Extra (Entidad): Contiene la información persistente de los servicios extra del sistema.
+### Gestionar servicios extra
+- Gestión servicios (interfaz)
+- Control servicios (control)
+- Servicios extra (entidad)
 
 ---
 
-7. Calcular Costo
+### Gestionar devolucion
+- Devolución vehículo (interfaz)
+- Registrar devolución (control)
+- Reservas (entidad)
+- Generar factura (control)
+- Facturas (entidad)
+- Vehículo (entidad)
 
-- Interfaz calcular costo (Interfaz): Pantalla o ventana que permite calcular el costo total del alquiler basado en los días, tipo de vehículo y servicios adicionales.
-- Controlador de costo (Control): Encargado de la lógica de cálculo de costos del alquiler.
+---
