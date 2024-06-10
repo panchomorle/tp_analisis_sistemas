@@ -15,87 +15,115 @@ Tema: Análisis de sistemas (Unidad 5)
 
 ![Analisis](Clases_de_analisis.png "analisis")
 
-### Atributos y métodos:
-**Gestion reservas:**
-    ListarReservas()
-    MostrarFormulario()
-**Control reservas:**
-    ListaReservas
-    AgregarReserva()
-    BorrarReserva()
-    ModificarReserva()
-    ListarReserva()
-**Reservas:**
-    fechaInicio
-    fechaFin
-    cliente
-    vehículo
-    serviciosExtra
-    estadoReserva
-    fechaReserva
+## **Atributos y métodos:**
+### **Gestion reservas:**
 
- **Gestion cliente:**
-    ListarClientes()
-    FormularioClientes()
-**Control cliente:**
-    ListaClientes
-    AgregarCliente()
-    BorrarCliente()
-    ModificarCliente()
-    ListarCliente()
-**Cliente:**
-    nombre
-    direccion
-    teléfono
-    email
+- ListarReservas()
+- MostrarFormulario()
 
-**Gestión vehículo:**
-    listarVehiculos()
-    FormularioVehiculos()
-**Control vehículo:**
-    ListaVehiculos
-    AgregarVehiculo()
-    BorrarVehiculo()
-    ModificarVehiculo()
-    ListarVehiculo()  
-**Vehículo:**
-    marca
-    modelo
-    año
-    matrícula
-    
-**Gestión de servicio:**
-	AgregarServicio()
-	BorrarServicio()
-	ModificarServicio()
-	ConsultarServicio()
-**Control servicios:**
-	 ListarServiciosExtra()
-	 AgregarServiciosExtra()
-	 BorrarServicioExtra()
-	 ModificarServicioExtra()
-**Servicios extra:**
-    nombre
-    descripción
-    
-**Facturas:**
-    cliente
-    fecha 
-    precio
-    servicios
-**Generar factura:**
-    ListaFacturas
+### **Control reservas:**
 
-**Registrar devolución:**
-	ListaDeReservas
-    CalcularCosto()
-    ModificarVehiculo()
-**Mostrar Informe:**
-	MostrarInforme()
-**Generar Informe:**
-	ConsultarFacturas()
-	ConsultarReservas()
-	ConsultarVehiculos()
+- ListaReservas
+- AgregarReserva()
+- BorrarReserva()
+- ModificarReserva()
+- ListarReserva()
+
+### **Reservas:**
+
+- fechaInicio
+- fechaFin
+- cliente
+- vehículo
+- serviciosExtra
+- estadoReserva
+- fechaReserva
+
+### **Gestion cliente:**
+
+- ListarClientes()
+- FormularioClientes()
+
+### **Control cliente:**
+
+- ListaClientes
+- AgregarCliente()
+- BorrarCliente()
+- ModificarCliente()
+- ListarCliente()
+
+### **Cliente:**
+
+- nombre
+- direccion
+- teléfono
+- email
+
+### **Gestión vehículo:**
+
+- listarVehiculos()
+- FormularioVehiculos()
+
+### **Control vehículo:**
+
+- ListaVehiculos
+- AgregarVehiculo()
+- BorrarVehiculo()
+- ModificarVehiculo()
+- ListarVehiculo()
+
+### **Vehículo:**
+
+- marca
+- modelo
+- año
+- matrícula
+
+### **Gestión de servicio:**
+
+- AgregarServicio()
+- BorrarServicio()
+- ModificarServicio()
+- ConsultarServicio()
+
+### **Control servicios:**
+
+- ListarServiciosExtra()
+- AgregarServiciosExtra()
+- BorrarServicioExtra()
+- ModificarServicioExtra()
+
+### **Servicios extra:**
+
+- nombre
+- descripción
+
+### **Facturas:**
+
+- cliente
+- fecha
+- precio
+- servicios
+
+### **Generar factura:**
+
+- ListaFacturas
+
+### **Registrar devolución:**
+
+- ListaDeReservas
+- CalcularCosto()
+- ModificarVehiculo()
+
+### **Mostrar Informe:**
+
+- MostrarInforme()
+
+### **Generar Informe:**
+
+- ConsultarFacturas()
+- ConsultarReservas()
+- ConsultarVehiculos()
 
 **Paquetes de análisis**:
 
